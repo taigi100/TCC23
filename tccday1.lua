@@ -1,4 +1,4 @@
-TIC=load"cls(8)for c=1,500 do pix(math.random(240),math.random(101),12)end rect(0,106,240,30,12)rect(120,96,10,10,3)for c=0,3 do tri(c*5+85,96-c*10,125,56-10*c,165-5*c,96-10*c,6)end rect(124,23,2,5,4)circb(124,24,10,4)for c=1,4 do for h=1-c,c-1 do circ(h*10+124,c*15+26,3,1+time()%15)end end"
+TIC=load"cls(8)for c=1,500 do pix(math.random(240),math.random(101),12)end rect(0,106,240,30,12)rect(120,96,10,10,3)for c=0,15,5 do tri(c+85,96-c*2,125,56-2*c,165-c,96-2*c,6)end rect(124,23,2,5,4)circb(124,24,10,4)for c=1,4 do for h=1-c,c-1 do circ(h*10+124,c*15+26,3,1+time()%15)end end"
 
 -- <TILES>
 -- 001:eccccccccc888888caaaaaaaca888888cacccccccacc0ccccacc0ccccacc0ccc
